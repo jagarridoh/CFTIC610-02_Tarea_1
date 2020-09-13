@@ -8,35 +8,479 @@
 </head>
 
 <body>
-    Iniciar
+    <hr>
+    Hola Billy, 
+    Tal como puedes ver en la siguiente captura, he completado todos los ejercicios de HTML: <br><br>
+    <img src="img/congratulations HTML.png" alt="Completado el cuestionario HTML" width="1500">
+    <hr>
     <h1> Attributes </h1>
+    <h2> Exercise 1 </h2>
     <div>
-        Add a "tooltip" to the paragraph below with the text "About W3Schools"<br/><br/>
-        &ltp <strong>title</strong>="About W3Schools"&gt W3Schools is a web developer's site.&lt/p&gt<br/><br/>
+        Add a "tooltip" to the paragraph below with the text "About W3Schools"<br><br>
+        &ltp <strong>title</strong>="About W3Schools"&gt W3Schools is a web developer's site.&lt/p&gt<br><br>
         Example:
-        <p title="About W3Schools">W3Schools is a web developer's site.</p><br/><br/>
+        <p title="About W3Schools">W3Schools is a web developer's site.</p><br><br>
     </div>
+    <h2> Exercise 2 </h2>
+    <div>
+        Set the size of the image to 250 pixels wide and 400 pixels tall.<br><br>
+        &lt; img src="w3schools.jpg" width="<strong>250</strong>" height="<stroing>400</strong>" &gt; <br><br>
+        Example:
+        <p><img src="img/w3schools.jpg" width="250" height="400"> </p>
+    </div>
+    <hr>
     <h1> Headings</h1>
+    <h2> Exercise 1 </h2>
+        Use the correct HTML tag to add a heading with the text "London":<br><br>
+        &lt;h1&gt;London&lt;/h1&gt;<br><br>
+        Example:
+        <h1>London</h1>
+    <h2> Exercise 3 </h2>
+        Mark up the text with appropriate tags:<br><br>
+        "Universal Studios Presents" is the most important heading.<br>
+        "Jurassic Park" is the next most important heading.<br>
+        "About" is the third most important heading.<br>
+        The last sentence is just a paragraph.<br>
+        Start with the most important heading (the largest) and end with the least important heading (the smallest).:<br><br>
+        &lt;h1&gt;Universal Studios Presents&lt;/h1&gt;<br>
+        &lt;h2&gt;Jurassic Park&lt;/h2&gt;<br>
+        &lt;h3&gt;About&lt;/h3&gt;<br>
+        &lt;p&gt;On the Island of Isla Nublar, a new park has been built: Jurassic Park is a theme park of cloned dinosaurs!!&lt;/p&gt;<br><br>
+        Example:
+        <h1>Universal Studios Presents</h1><br>
+        <h2>Jurassic Park</h2><br>
+        <h3>About</h3><br>
+        <p>On the Island of Isla Nublar, a new park has been built: Jurassic Park is a theme park of cloned dinosaurs!!</p><br>
+    <hr>
     <h1> Paragraphs</h1>
+    <h2> Exercise 5 </h2>
+        Wrap this poem around HTML tags that will preserve all spaces and linebreaks when the element is displayed:  <br><br>
+        My Bonnie lies over the ocean.  <br>
+        My Bonnie lies over the sea.  <br>
+        My Bonnie lies over the ocean.  <br>
+        Oh, bring back my Bonnie to me.  <br><br>
+    
+        <pre>
+    &lt;pre&gt;
+        My Bonnie lies over the ocean.
+        My Bonnie lies over the sea.
+        My Bonnie lies over the ocean.
+        Oh, bring back my Bonnie to me.  
+    &lt;/pre&gt;<br>
+        </pre>
+            
+    Example:
+        <pre>
+        My Bonnie lies over the ocean.  
+        My Bonnie lies over the sea.  
+        My Bonnie lies over the ocean.  
+        Oh, bring back my Bonnie to me.  
+    </pre>
+
+    <hr>
     <h1> Styles</h1>
+
+    <h2>Exercise 1, 2, 3 and 4</h2>
+
+    <ol>
+    <li>Use the correct HTML attribute, and CSS, to set the color of the paragraph to "blue".</li>
+    <li>Use CSS to set the font of the paragraph to "courier".</li>
+    <li>Use CSS to center align the paragraph.</li>
+    <li>Use CSS to set the text size to 50 pixels.</li>
+    </ol>
+    
+    &lt;p style="color:blue;"&gt;1. This is a paragraph.&lt;/p&gt;<br>
+    &lt;p style="font-family:courier;"&gt;2. This is a paragraph.&lt;/p&gt;<br>
+    &lt;p style="text-align:center;"&gt;3. This is a paragraph.&lt;/p&gt;<br>
+    &lt;p style="font-size:50px;"&gt;4. This is a paragraph.&lt;/p&gt;<br>
+    <br>
+    Example: <br>
+    <p style="color:blue;">1. This is a paragraph.</p> 
+    <p style="font-family:courier;">2. This is a paragraph.</p>
+    <p style="text-align:center;">3. This is a paragraph.</p> 
+    <p style="font-size:50px;">4. This is a paragraph.</p>
+    
+    <hr>
     <h1> Formatting</h1>
+
+    <h2>Exercise 1, 2, 3, 4 and 5</h2>
+
+    <ol>
+    <li>Add extra importance to the word "degradation" in the paragraph below.</li>
+    <li>Emphasize the word "metropolitan" in the text below.</li>
+    <li>Highlight the word "FUN" in the text below.</li>
+    <li>Apply subscript formatting to the number "2" in the text below.</li>
+    <li>Add a line through (strikeout) the letters "blue" in the text below.</li>
+    </ol>
+
+    <xmp>
+    1. <p>WWF's mission is to stop the <strong>degradation</strong> of our planet's natural environment.</p> 
+    2. <p>Tokyo is the capital of Japan, the most populous <em>metropolitan</em> area in the world.</p> 
+    3. <p>HTML is <mark>FUN</mark> to learn!</p> 
+    4. <p>H<sub>2</sub>O is the scientific term for water.</p> 
+    5. <p>My favorite color is <del>blue</del> red.</p> 
+    </xmp>
+
+    Example: <br>
+    <p>1. WWF's mission is to stop the <strong>degradation</strong> of our planet's natural environment.</p> 
+    <p>2. Tokyo is the capital of Japan, the most populous <em>metropolitan</em> area in the world.</p> 
+    <p>3. HTML is <mark>FUN</mark> to learn!</p> 
+    <p>4. H<sub>2</sub>O is the scientific term for water.</p> 
+    <p>5. My favorite color is <del>blue</del> red.</p> 
+
+    <hr>
     <h1> Quotations</h1>
-    <h1> Comments</h1>
+
+    <h2>Exercise 2</h2>
+    The text below should be a quoted section. Add the proper HTML element to it, and specify that it is quoted 
+    from the following URL: http://www.worldwildlife.org/who/index.html: <br><br>
+    For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, 
+    WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally. <br><br>
+    
+    &lt;blockquote cite="http://www.worldwildlife.org/who/index.html"&gt;For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally. &lt;/blockquote&gt;<br>
+    <br>
+    Example: (browser usually indent blockquoted paragraphs)<br> 
+    <blockquote cite="http://www.worldwildlife.org/who/index.html">For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally. </blockquote>
+        
+    <hr>
     <h1> CSS</h1>
+
+    <h2>Exercise 4</h2>
+
+    Use CSS to make a yellow, 3 pixel thick, border around all paragraphs (in a class).
+        
+    <pre>
+    &lt;!DOCTYPE html&gt;
+    &lt;html&gt;
+    &lt;head&gt;
+        &lt;style&gt;
+        p.one {border: 1px solid yellow;}
+        &lt;/style&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+
+    &lt;p class="one"&gt;This is a paragraph.&lt;/p&gt;
+    &lt;p class="one"&gt;This is a paragraph.&lt;/p&gt;
+    &lt;p class="one"&gt;This is a paragraph.&lt;/p&gt;
+
+    &lt;p&gt;
+    his is a paragraph.&lt;/p&gt;
+
+    &lt;/body&gt;
+    &lt;/html&gt;
+    </pre>
+
+    Example: 
+    <style>
+        p.one {border: 3px solid yellow;}
+    </style>
+    <p class="one">This is a paragraph.</p>
+    <p class="one">This is a paragraph.</p>
+    <p class="one">This is a paragraph.</p>
+    
+    <hr>
     <h1> Links</h1>
+    <h2>Exercise 2</h2>
+    Add a "tooltip" to the link. The "tooltip" should say "Home":<br><br>
+    &lt;a href="volver.html" title="Home"&gt;Pulsar aquí para ir a volver.html&lt;/a&gt; <br><br>
+
+    Example: <br><br>
+    <a href="volver.html" title="Home">Pulsar aquí para ir a volver.html</a> 
+
+    <hr>
     <h1> Images</h1>
+    
+    <h2>Exercise 4</h2>
+
+    Make the image below float to the right of the paragraph.
+
+    &lt;p&gt;<br>
+    &lt;img src="img/smiley.gif" style="float:right;"&gt;<br>
+    This is a paragraph.<br>
+    This paragraph contains an image<br>
+    &lt;/p&gt; <br>
+    
+    Example: <br>
+    <p>
+        <img src="img/smiley.jpg" style="float:right;">
+        This is a paragraph. <br>
+        This paragraph contains an image <br>
+    </p> 
+    
+    <hr>
     <h1> Tables</h1>
+    <h2>Exercise 6</h2>
+
+    Use the correct HTML attribute to make the second TH element span two rows.
+    
+    <pre>
+    &lt;table&gt;
+      &lt;tr&gt;
+        &lt;th&gt;Name&lt;/th&gt;
+        &lt;td&gt;Jill Smith&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;th&gt;rowspan="2">Phone&lt;/th&gt;
+        &lt;td&gt;555-77854&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;555-77854&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/table&gt;
+    </pre>
+
+    Example: <br><br>
+
+    <table>
+        <tr>
+          <th style="border: solid;">Name</th>
+          <td style="border: solid;">Jill Smith</td>
+        </tr>
+        <tr>
+          <th rowspan="2" style="border: solid;">Phone</th>
+          <td style="border: solid;">555-77854</td>
+        </tr>
+        <tr>
+          <td style="border: solid;">555-77854</td>
+        </tr>
+    </table>
+
+    <hr>
     <h1> Lists</h1>
+    <h2>Exercise 5</h2>
+
+    Use the correct HTML attribute to display uppercase roman numbers. <br>
+    <pre>
+    &lt;ol type="I"&gt;
+      &lt;li&gt;Coffee&lt;/li&gt;
+      &lt;li&gt;Tea&lt;/li&gt;
+      &lt;li&gt;Milk&lt;/li&gt;
+    &lt;/ol&gt;
+    </pre>
+
+    Example:<br>
+    <ol type="I">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol> 
+  
+    <hr>
     <h1> Classes</h1>
+    <h2>Exercise 3</h2>
+
+    Add two classes to the H1 element, to make the background pink and the color red.
+
+    <pre>
+    &lt;!DOCTYPE html&gt;
+    &lt;html&gt;
+    &lt;head&gt;
+    &lt;style&gt;
+    .intro {background:pink;}
+    .special {color:red;}
+    &lt;/style&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+    &lt;h1 class="intro special">My Home Page&lt;/h1&gt;
+    &lt;/body&gt;
+    &lt;/html&gt;
+    </pre>
+
+    Example:
+
+<style>
+.intro {background:pink;}
+.special {color:red;}
+</style>
+<h1 class="intro special">My Home Page</h1>
+
+    <hr>
     <h1> Id</h1>
+    <h2>Exercise 2</h2>
+
+    Create an id selector named "special".  <br>
+    Add a color property with the value "blue" inside the "special" declaration block. <br>
+    
+    <pre>
+    &lt;!DOCTYPE html&gt;
+    &lt;html&gt;
+    &lt;head&gt;
+    &lt;style&gt;
+    #special  {
+        color:blue;
+    }
+    &lt;/style&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+    
+    &lt;p id="special">My paragraph&lt;/p&gt;
+    
+    &lt;/body&gt;
+    &lt;/html&gt;
+    </pre>
+
+    Example:
+    <style>
+        #special  {
+            color:blue;
+        }
+    </style>
+    <p id="special">My paragraph</p>
+
+    <hr>
     <h1> Iframes</h1>
+    <h2>Exercise 3</h2>
+    Use CSS to display an iframe with no borders.
+    <pre>
+    &lt;iframe src="incrustable.html" style="border:none"&gt;&lt;/iframe&gt;
+    </pre>
+
+    Example:
+    <iframe src="incrustable.html" style="border:none"></iframe> 
+
+    <hr>
     <h1> Script</h1>
+    <h2>Exercise 4</h2>
+
+    Use JavaScript to change the image source from "scream.png" to "smiley.gif":
+    
+    <pre>
+    &lt;body&gt;
+    &lt;img id="demo" src="scream.png"&gt;
+    &lt;script&gt;
+    document.getElementById("demo").src = "smiley.gif";
+    &lt;/script&gt;
+    &lt;/body>&gt;
+    </pre>
+
+    Example:
+    <body>
+        <img id="demo" src="img/w3schools.jpg">
+        <script>
+        document.getElementById("demo").src = "img/smiley.jpg";
+        </script>
+    </body> 
+
+    <hr>
     <h1> Computercode</h1>
+    <h2>Exercise 2</h2>
+
+    Define the text inside the &lt;code&gt; element as preformatted text (to preserve spaces and line breaks).
+    
+    <pre>
+    &lt;pre&gt;&lt;p&gt;Code example:&lt;/p&gt;
+    &lt;code&gt;var person = {
+      firstName:"John",
+      lastName:"Doe"
+    }&lt;/code&gt;&lt;/pre&gt;
+    </pre>
+
+    Example:
+    <pre><p>Code example:</p>
+    <code>var person = {
+        firstName:"John",
+        lastName:"Doe"
+    }</code></pre>
+        
+    <hr>
     <h1> Forms</h1>
+    <h2>Exercise 2</h2>
+
+    In the form below, add two radio buttons, both with the name "gender".
+    
+    <pre>
+    &lt;form&gt;
+        &lt;input type="radio" name="gender" value="male"&gt; Male
+        &lt;input type="radio" name="gender" value="female"&gt; Female
+    &lt;/form&gt; 
+    </pre>
+    
+    Example:
+    <form>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+    </form> 
+    
+    <hr>
     <h1> Form Attributes</h1>
+    <h2>Exercise 2</h2>
+
+    Specify that the form is submitted using the "POST" method.
+
+    <pre>
+    &lt;form action="/action_page.php" method="post"&gt;
+        Name: &lt;input type="text" name="name"&g&gt;
+        &lt;input type="submit"&g&gt;
+    &lt;/form&gt;
+    </pre>
+
+    Example:
+    <form action="/action_page.php" method="post">
+        Name: <input type="text" name="name">
+        <input type="submit">
+    </form> 
+    
+    <hr>
     <h1> Form Elements</h1>
+    <h2>Exercise 2</h2>
+
+    In the form below, add two option elements to the drop down list.  <br>
+    The first option must have the value "Volvo".  <br>
+    The second option must have the value "Ford".  <br>
+    
+    <pre>
+    &lt;form action="/action_page.php"&gt;
+    &lt;select name="cars"&gt;
+    &lt;option value="Volvo">Volvo&lt;/option&gt;
+    &lt;option value="Ford">Ford&lt;/option&gt;
+    &lt;/select&gt;
+    &lt;/form&gt;
+    </pre>
+    
+    Example:
+    <form action="/action_page.php">
+        <select name="cars">
+        <option value="Volvo">Volvo</option>
+        <option value="Ford">Ford</option>
+        </select>
+    </form> 
+    
+    <hr>
     <h1> Input Types</h1>
+    <h2>Exercise 5</h2>
+
+    In the form below, add a input field that can only contain numbers.  <br>
+    Use the correct input attributes to only allow numbers between 1 and 5.  <br>
+    
+    <pre>
+        &lt;form action="/action_page.php"&gt;
+            &lt;input type="number" min="1" max="5"&gt;
+        &lt;/form&gt;
+    </pre>
+    
+    Example:
+    <form action="/action_page.php">
+        <input type="number" min="1" max="5">
+    </form> 
+        
+    <hr>
     <h1> Input Attributes</h1>
+    <h2>Exercise 4</h2>
+
+    Set the input field to be read only (meaning that the value cannot be changed).  <br>
+    
+    <pre>
+    &lt;form action="/action_page.php"&gt;
+    &lt;input type="text" readonly&gt;
+    &lt;/form&gt;
+    </pre>    
+
+    Example:
+    <form action="/action_page.php">
+        <input type="text" readonly>
+    </form> 
+    
+
 </body>
 
 </html>
