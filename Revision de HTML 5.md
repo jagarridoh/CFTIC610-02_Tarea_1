@@ -1,12 +1,12 @@
 # Revision de HTML 5
 
-DESCRIPCION
+Descripcion
 
-## HTML
+En este documento se prorciona un subconjunto de las preguntas y respuestas que aparecen en w3schools.
 
 - - -
 
- #### Attributes
+## Attributes
 - - -
 Exercise 1
 
@@ -25,7 +25,7 @@ Set the size of the image to 250 pixels wide and 400 pixels tall:
 ~~~
 
 - - -
-#### Headings
+## Headings
 - - - 
 Exercise 1
 
@@ -52,7 +52,7 @@ Start with the most important heading (the largest) and end with the least impor
 ~~~
 
 - - -
-#### Paragraphs
+## Paragraphs
 - - - 
 Exercise 5
 
@@ -72,7 +72,7 @@ Oh, bring back my Bonnie to me.
 ~~~
 
 - - -
-#### Styles
+## Styles
 - - -
 Exercise 1, 2, 3 and 4
 
@@ -89,7 +89,7 @@ Exercise 1, 2, 3 and 4
 ~~~
 
 - - -
-#### Formatting
+## Formatting
 - - - 
 Exercise 1, 2, 3, 4 and 5
 
@@ -108,7 +108,7 @@ Exercise 1, 2, 3, 4 and 5
 ~~~
 
 - - -
-#### Quotations
+## Quotations
 - - -
 Exercise 2
 
@@ -120,7 +120,7 @@ For 50 years, WWF has been protecting the future of nature. The world's leading 
 <blockquote cite="http://www.worldwildlife.org/who/index.html">For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally. </blockquote>
 ~~~
 - - -
-#### CSS
+## CSS
 - - -
 Exercise 4
 
@@ -149,7 +149,7 @@ p {border: unset;}
 ~~~
 
 - - -
-#### Links
+## Links
 - - -
 Exercise 2
 
@@ -160,7 +160,7 @@ Add a "tooltip" to the link. The "tooltip" should say "Home".
 ~~~
 
 - - -
-#### Images
+## Images
 - - -
 Exercise 4
 
@@ -175,7 +175,7 @@ This paragraph contains an image
 ~~~
 
 - - -
-#### Tables
+## Tables
 - - -
 Exercise 6
 
@@ -199,7 +199,7 @@ Use the correct HTML attribute to make the second TH element span two rows.
 
 
 - - -
-#### Lists
+## Lists
 - - -
 Exercise 5
 
@@ -214,7 +214,7 @@ Use the correct HTML attribute to display uppercase roman numbers.
 ~~~
 
 - - -
-#### Classes
+## Classes
 - - -
 Exercise 3
 
@@ -237,7 +237,7 @@ Add two classes to the H1 element, to make the background pink and the color red
 
 
 - - -
-#### Id
+## Id
 - - -
 Exercise 2
 
@@ -263,7 +263,7 @@ Add a color property with the value "blue" inside the "special" declaration bloc
 ~~~
 
 - - -
-#### Iframes
+## Iframes
 - - -
 Exercise 3
 
@@ -274,7 +274,7 @@ Use CSS to display an iframe with no borders.
 ~~~
 
 - - -
-#### Script
+## Script
 - - -
 Exercise 4
 
@@ -290,11 +290,11 @@ document.getElementById("demo").src = "smiley.gif";
 ~~~
 
 - - -
-#### Computercode
+## Computercode
 - - -
 Exercise 2
 
-Define the text inside the <code> element as preformatted text (to preserve spaces and line breaks).
+Define the text inside the \<code> element as preformatted text (to preserve spaces and line breaks).
 
 ~~~
 <pre><p>Code example:</p>
@@ -305,7 +305,7 @@ Define the text inside the <code> element as preformatted text (to preserve spac
 ~~~
 
 - - -
-#### Forms
+## Forms
 - - -
 Exercise 2
 
@@ -319,7 +319,7 @@ In the form below, add two radio buttons, both with the name "gender".
 ~~~
 
 - - -
-#### Form Attributes
+## Form Attributes
 - - -
 Exercise 2
 
@@ -332,7 +332,7 @@ Name: <input type="text" name="name">
 </form> 
 ~~~
 - - -
-#### Form Elements
+## Form Elements
 - - -
 Exercise 2
 
@@ -350,7 +350,7 @@ The second option must have the value "Ford".
 ~~~
 
 - - -
-#### Input Types
+## Input Types
 - - -
 Exercise 5
 
@@ -364,7 +364,7 @@ Use the correct input attributes to only allow numbers between 1 and 5.
 ~~~
 
 - - -
-#### Input Attributes
+## Input Attributes
 - - -
 Exercise 4
 

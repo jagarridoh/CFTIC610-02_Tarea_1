@@ -8,7 +8,150 @@
 </head>
 
 <body>
-    Iniciar
+
+<hr>
+<h1>Selectors</h1>
+<h2>Exercise 1</h2>
+Change the color of all &lt;p&gt; elements to "red". <br>
+
+<pre>
+    &lt;!DOCTYPE html&gt;
+    &lt;html&gt;
+    &lt;head&gt;
+    &lt;style&gt;
+    p {
+        color: red;
+    }
+    &lt;/style&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+    
+    &lt;h1&gt;This is a Heading&lt;/h1&gt;
+    &lt;p&gt;This is a paragraph.&lt;/p&gt;
+    &lt;p&gt;This is another paragraph.&lt;/p&gt;
+    
+    &lt;/body&gt;
+    &lt;/html&gt;
+</pre>
+
+Example:
+<iframe src="./ejemplos_css/selectors_ex1.html"></iframe> 
+<br><br>
+<h2>Exercise 2</h2>
+Change the color of the element with id="para1", to "red".
+
+<pre>
+    &lt;!DOCTYPE html&gt;
+    &lt;html&gt;
+    &lt;head&gt;
+    &lt;style&gt;
+    #para1 {
+        color: red;
+    }
+    &lt;/style&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+    
+    &lt;h1&gt;This is a Heading&lt;/h1&gt;
+    &lt;p id="para1"&gt;This is a paragraph.&lt;/p&gt;
+    &lt;p&gt;This is another paragraph.&lt;/p&gt;
+    
+    &lt;/body&gt;
+    &lt;/html&gt;
+</pre>
+
+
+<br><br>
+<h2>Exercise 3</h2>
+Change the color of all elements with the class "colortext", to "red".
+
+<pre>
+    &lt;!DOCTYPE html&gt;
+    &lt;html&gt;
+    &lt;head&gt;
+    &lt;style&gt;
+    .colortext {
+        color: red;
+    }
+    &lt;/style&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+    
+    &lt;h1&gt;This is a Heading&lt;/h1&gt;
+    &lt;p class="colortext"&gt;This is a paragraph.&lt;/p&gt;
+    &lt;p class="colortext"&gt;This is another paragraph.&lt;/p&gt;
+    
+    &lt;/body&gt;
+    &lt;/html&gt;
+</pre>
+
+Example:
+<iframe src="./ejemplos_css/selectors_ex3.html"></iframe> 
+
+
+<br><br>
+<h2>Exercise 4</h2>
+Change the color of all &lt;p&gt; and &lt;h1&gt; elements, to "red". Group the selectors to minimize code.
+
+<pre>
+    &lt;!DOCTYPE html&gt;
+    &lt;html&gt;
+    &lt;head&gt;
+    &lt;style&gt;
+    p, h1 {
+        color: red;
+    }
+    &lt;/style&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+    
+    &lt;h1&gt;This is a Heading&lt;/h1&gt;
+    &lt;h2&gt;This is a smaller heading&lt;/h1&gt;
+    &lt;p&gt;This is a paragraph.&lt;/p&gt;
+    &lt;p&gt;This is another paragraph.&lt;/p&gt;
+
+    &lt;/body&gt;
+    &lt;/html&gt;
+</pre>
+
+Example:
+<iframe src="./ejemplos_css/selectors_ex4.html"></iframe> 
+
+
+<hr>
+<h1>BAckground</h1>
+<h2>Exercise 5</h2>
+Use the shorthand background property to set background image to "img_tree.png", show it once, in the top right corner.
+
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;style&gt;
+body {
+  background: url("img_tree.png") no-repeat top right;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;h1&gt;This is a Heading&LT;/h1&gt;
+&lt;p&gt;This is a paragraph.&LT;/p&gt;
+&lt;p&gt;This is another paragraph.&LT;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+Example
+<iframe src="./ejemplos_css/background_ex5.html" height="400" width="600"></iframe> 
+
+
+
+
+
+
+
 </body>
 
 </html>

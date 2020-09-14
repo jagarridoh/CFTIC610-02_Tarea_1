@@ -1,74 +1,267 @@
 # Revision de CCS3
 
-Descripcion 
+Descripcion
 
-#### Selectors
+En este documento se prorciona un subconjunto de las preguntas y respuestas que aparecen en w3schools.
+Esta vez me he creado un usuario para que se guarden los puntos obtenidos...
 
-#### How to...
+- - - 
+## Selectors
+- - - 
+Exercise 1
 
-#### Background
+Change the color of all \<p> elements to "red".
 
-#### Border
+~~~
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p {
+	color: red;
+}
+</style>
+</head>
+<body>
 
-#### Margin
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
 
-#### Padding
+</body>
+</html>
+~~~
 
-#### Height/Width
+Exercise 2
 
-#### Box Model
+Change the color of the element with id="para1", to "red".
 
-#### Outline
+~~~
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ #para1 {
+        color: red;
+    }
+</style>
+</head>
+<body>
 
-#### Text
+<h1>This is a Heading</h1>
+<p id="para1">This is a paragraph.</p>
+<p>This is another paragraph.</p>
 
-#### Font
+</body>
+</html>
+~~~
 
-#### Links
+Exercise 3
 
-#### List
+Change the color of all elements with the class "colortext", to "red".
 
-#### Tables
+~~~
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    .colortext {
+        color: red;
+    }
+</style>
+</head>
+<body>
 
-#### Display/visibility
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+<p class="colortext">This is another paragraph.</p>
+<p class="colortext">This is also a paragraph.</p>
 
-#### Positioning
+</body>
+</html>
+~~~
 
-#### Overflow
+Exercise 4
 
-#### Align
+Change the color of all &lt;p&gt; and &lt;h1&gt; elements, to "red". Group the selectors to minimize code.
 
-#### Combinators
+~~~
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p, h1 {
+    color: red;
+}
+</style>
+</head>
+<body>
 
-#### Pseudo-classes
+<h1>This is a Heading</h1>
+<h2>This is a smaller heading</h1>
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
 
-#### Pseudo-elements
+</body>
+</html>
+~~~
 
-#### Opacity
+- - - 
+## Background
+- - - 
 
-#### Attribute Selectors
+Exercise 5
 
-#### Rounded Corners
+Use the shorthand background property to set background image to "img_tree.png", show it once, in the top right corner.
 
-#### Border Images
+~~~
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background: url("img_tree.png") no-repeat top right;
+}
+</style>
+</head>
+<body>
 
-#### Backgrounds
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
 
-#### Colors
+</body>
+</html>
+~~~
 
-#### Gradients
 
-#### Shadow Effects
 
-#### Text Effects
+- - - 
+## Border
+- - - 
 
-#### Web Fonts
+- - - 
+## Margin
+- - - 
 
-#### 2D Transforms
+- - - 
+## Padding
+- - - 
 
-#### 3D Transforms
+- - - 
+## Height/Width
+- - - 
 
-#### Transitions
+- - - 
+## Box Model
+- - - 
 
-#### Animations
+- - - 
+## Outline
+- - - 
 
+- - - 
+## Text
+- - - 
+
+- - - 
+## Font
+- - - 
+
+- - - 
+## Links
+- - - 
+
+- - - 
+## List
+- - - 
+
+- - - 
+## Tables
+- - - 
+
+- - - 
+## Display/visibility
+- - - 
+
+- - - 
+## Positioning
+- - - 
+
+- - - 
+## Overflow
+- - - 
+
+- - - 
+## Align
+- - - 
+
+- - - 
+## Combinators
+- - - 
+
+- - - 
+## Pseudo-classes
+- - - 
+
+- - - 
+## Pseudo-elements
+- - - 
+
+- - - 
+## Opacity
+- - - 
+
+- - - 
+## Attribute Selectors
+- - - 
+
+- - - 
+## Rounded Corners
+- - - 
+
+- - - 
+## Border Images
+- - - 
+
+- - - 
+## Backgrounds
+- - - 
+
+- - - 
+## Colors
+- - - 
+
+- - - 
+## Gradients
+- - - 
+
+- - - 
+## Shadow Effects
+- - - 
+
+- - - 
+## Text Effects
+- - - 
+
+- - - 
+## Web Fonts
+- - - 
+
+- - - 
+## 2D Transforms
+- - - 
+
+- - - 
+## 3D Transforms
+- - - 
+
+- - - 
+## Transitions
+- - - 
+
+- - - 
+## Animations
+- - - 
+
+- - - 
