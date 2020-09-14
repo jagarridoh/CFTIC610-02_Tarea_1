@@ -135,46 +135,95 @@ body {
 ~~~
 
 
-
 - - - 
 ## Border
 - - - 
+Exercise 3
+
+Change the 3 border properties, so that they only show the border on the top side.
+
+~~~
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p {
+  border-top-style: dotted;
+  border-top-width: 4px;
+  border-top-color: red;
+}
+</style>
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+~~~
 
 - - - 
 ## Margin
 - - - 
+Exercise 4
 
-- - - 
-## Padding
-- - - 
+Use the margin property to center align the \<h1> element.
 
-- - - 
-## Height/Width
-- - - 
+~~~
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 {
+  background-color: lightblue;
+  width: 300px;
+  margin: auto;
+}
+</style>
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+~~~
+
 
 - - - 
 ## Box Model
 - - - 
+Exercise 1 to 4
 
-- - - 
-## Outline
-- - - 
+1. Set the width of the div to "200px".  
+2. Set the padding of the div to "25px".  
+3. Set the border of the div to "25px solid navy".  
+4. Set the margin of the div to "25px".  
 
-- - - 
-## Text
-- - - 
+~~~
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+  background-color: lightblue;
+  width: 200px;
+  padding: 25px;
+  border: 25px solid navy;
+  margin: 25px;
+}
+</style>
+</head>
+<body>
 
-- - - 
-## Font
-- - - 
+<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
 
-- - - 
-## Links
-- - - 
+</body>
+</html>
+~~~
 
-- - - 
-## List
-- - - 
 
 - - - 
 ## Tables
