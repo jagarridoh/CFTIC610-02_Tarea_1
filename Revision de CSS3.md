@@ -228,89 +228,54 @@ div {
 - - - 
 ## Tables
 - - - 
+Exercises 1 to 6 altogether:
 
-- - - 
-## Display/visibility
-- - - 
+1. Set the border to "2px solid green" for table, th and td elements.
+2. Collapse the table borders into a single border.
+3. Set the width of the table to "100%".
+4. Set the text alignment in \<td> elements to "right".
+5. Set the padding in \<th> elements to "15px".
+6. Set the background color of \<th> elements to "lightblue".
 
-- - - 
-## Positioning
-- - - 
+~~~
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, td, th {
+  border: 2px solid green;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+td {
+  text-align: right;
+}
+th {
+  padding: 15px;
+  background-color: lightblue;
+}
+</style>
+</head>
+<body>
 
-- - - 
-## Overflow
-- - - 
+<table>
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+  </tr>
+  <tr>
+    <td>Peter</td>
+    <td>Griffin</td>
+  </tr>
+  <tr>
+    <td>Lois</td>
+    <td>Griffin</td>
+  </tr>
+</table>
 
-- - - 
-## Align
-- - - 
+</body>
+</html>
+~~~
 
-- - - 
-## Combinators
-- - - 
-
-- - - 
-## Pseudo-classes
-- - - 
-
-- - - 
-## Pseudo-elements
-- - - 
-
-- - - 
-## Opacity
-- - - 
-
-- - - 
-## Attribute Selectors
-- - - 
-
-- - - 
-## Rounded Corners
-- - - 
-
-- - - 
-## Border Images
-- - - 
-
-- - - 
-## Backgrounds
-- - - 
-
-- - - 
-## Colors
-- - - 
-
-- - - 
-## Gradients
-- - - 
-
-- - - 
-## Shadow Effects
-- - - 
-
-- - - 
-## Text Effects
-- - - 
-
-- - - 
-## Web Fonts
-- - - 
-
-- - - 
-## 2D Transforms
-- - - 
-
-- - - 
-## 3D Transforms
-- - - 
-
-- - - 
-## Transitions
-- - - 
-
-- - - 
-## Animations
-- - - 
-
-- - - 
